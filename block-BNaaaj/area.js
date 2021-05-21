@@ -10,7 +10,11 @@ function circleArea(r){
 }
 
 
-module.exports(squareArea(),rectangleArea)
+module.exports = {
+    square: squareArea,
+    rectangle: rectangleArea,
+    circle: circleArea
+}
 
 
 
