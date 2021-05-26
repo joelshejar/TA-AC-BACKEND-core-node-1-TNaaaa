@@ -1,0 +1,59 @@
+.bars{
+    display: none;
+}
+#toggle{
+    display: none;
+}
+.navbar{
+    
+    li{
+        margin-left: 2rem;
+        color: red;
+        &:hover{
+            
+            text-align: center;
+            .line{
+                background-color: red;
+                text-align: center;
+                padding: 0.1rem 0;
+                margin-top: 0.5rem;
+                
+            }
+        }
+        a{
+            color: red;
+            padding: 1rem 1rem;
+            
+            
+        }
+    }
+}
+.header{
+    background-color: white;
+    a{
+        img{
+            width: 100%;
+        }
+    }
+    // background: red;
+    // background: -webkit-linear-gradient(top, red, #FFFFFF);
+    // background: -moz-linear-gradient(top, red, #FFFFFF);
+    // background: linear-gradient(to bottom, red, #FFFFFF);;
+}
+.header1{
+    background-color: red;
+    a{
+        color: white;
+    }
+    
+}
+.phone{
+    li{
+        margin-right: 1rem; 
+    }
+}
+.twitter{
+    li{
+        margin-left: 1rem;
+    }
+}
