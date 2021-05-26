@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+html{
+    font-size: 16px;
+}
+*, *::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    max-width:1350px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 4rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1rem;
+}
+h6{
+    font-size: 0.5rem;
+}
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-items: start;
+}
+.place-content{
+    place-content: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.main{
+    grid-template-columns:repeat(4,1fr);
+}
+.padding{
+    padding: 1rem 4rem;
+}
+.font-0{
+    font-size: 0;
+}
+.img{
+    width: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+a{
+    text-decoration: none;
+}
+.secondary-heading{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+.ternary-heading{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.full-width{
+    width: 100%;
+}
+.width-90{
+    width: 90%;
+    background-color: red;
+}
+.width-80{
+    width: 80%;
+}
+.width-70{
+    width: 70%;
+}
+
+.grid-span-2{
+    grid-column: span 2;
+}
+.column-left{
+    h6{
+        margin-bottom: 4rem;
+    }
+    article{
+        align-items: center;
+        margin-top: 2rem;
+        i{
+            font-size: 2rem;
+        }
+        div{
+            margin-left: 1rem;
+        }
+    }
+    
+    .ternary-heading{
+        span{
+            font-size: 1rem;
+            
+            font-weight: 700;
+        }
+    }
+}
